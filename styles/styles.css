@@ -1,0 +1,630 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size:0
+}
+
+.header{
+    width: 1404px;
+    height: 70px;
+    background-color: black;
+}
+
+.axit-logo{
+    display: inline-block;
+    width: 68px;
+    height: 31px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.header-nav{
+    display: inline-block;
+    margin-left: 625px;
+    text-decoration: none;
+}
+    
+.nav-list{
+    display: inline-block;
+}
+
+li a{
+    margin-right: 48px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+/****************секция "ПРОМО"********************/
+.body{
+    font-size: 0;
+}
+
+.promo{
+    width: 100%;
+    background-image: url(../img/background-city.png);
+}
+.promo-wrapper{
+    margin-left: 110px;
+}
+
+.promo-description{
+    display: inline-block;
+    width: 545px;
+}
+
+.promo-logo{
+    width:129px;
+    height: 70px;
+    padding-top: 108px;
+}
+
+.promo-title{
+    font-family: 'Raleway';
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-top: 32px;
+    color: white;
+}
+
+.promo-line{
+    width: 64px;
+    height: 2px;
+    margin-top: 32px;
+    margin-bottom: 39px;
+    border: 0px;
+    background-color: white;
+   
+}
+.promo-text{
+    font-size: 'Open Sans';
+    font-size: 14px;
+    font-style: normal;
+    color: white;
+}
+
+.promo-button{
+    height: 42px;
+    width: 135px;
+    margin-top: 39px;
+    border-radius: 0px;
+    margin-bottom: 110px;
+    border-color: white;
+    background: transparent;
+    color: white;
+}
+
+.promo-trial{
+    display: inline-block;
+    width: 370px;
+    height: 368px;
+    margin-left: 200px;
+    margin-top: 110px;
+    border-radius: 8px;
+    background-color: white;
+}
+    
+.promo-subtitle{
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    text-align: center;
+    height: 56px;
+}
+
+.form-trial{
+    text-align: center;
+}
+
+.input{
+    width: 252px;
+    height: 35px;
+    margin-top: 44px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.submit-button{
+    height: 55px;
+    width: 372px;
+    margin-top: 44px;
+    font-size: 15px;
+    border-radius: 0 0 8px 8px;
+    font-family: 'Opan Sans';
+    font-style: 'SemiBold';
+    text-align: center;
+    background-color: #EC7979;
+    color: white;
+}
+
+span{
+text-transform: uppercase;
+color: #EC7979;
+}
+
+/****************секция social**********/
+.social-container{
+    width: 100%;
+    height: 110px;
+    background-color: #F8EFEF;
+    align-items: center;
+}
+
+.social-description{
+    position: relative;
+   align-items: center;
+   width: 365px;
+   margin-left: 110px;
+}
+
+.social-title{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+padding-top: 14px;
+padding-bottom: 14px;
+}
+
+.social-text{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #86878B;
+padding-bottom: 17px;
+}
+
+.social-icons{
+    position: absolute;
+    width: 635px;
+    height:635px;
+    left: 605px;
+    top: 520px;
+}
+
+.social-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/*****************секция с квадратами*****/
+
+.tab{
+    background-color:white;
+ }
+
+.square-description{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 126px;
+}
+
+.tab-square{
+    margin-bottom: 10px;
+    padding: 45px 35px;
+    border-radius: 4px;
+    font-size: 'Open Sans';
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+}
+
+.tab-wrapper{
+    margin-left: 110px;
+}
+
+.square--coral{
+    margin-bottom: 10px;
+    padding: 45px 35px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-size: "Open Sans";
+    text-transform: uppercase;
+    background-color: #EC7979;
+    color: white;
+}
+
+.tab-description{
+    width: 572px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 126px;
+    margin-bottom: 125px;
+    text-transform: uppercase;
+}
+
+.tab-title{
+    padding-bottom: 35px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 700px;   
+}
+
+.tab-text{
+    padding-bottom: 25px; 
+    font-size: 14px;
+    color: #86878B; 
+}
+
+.city{
+    display: inline-block;
+    vertical-align: top;
+    width: 320px;
+    height: 253px;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+.tab-button{
+    width: 135px;
+    height: 42px;
+    margin-top: 82px;
+    border-radius: 0px;
+    color: white;
+    border-color: white; 
+    background-color: #EC7979;
+}
+
+/************************секция с карточками*/
+
+.promo-cards{
+    text-align: center;
+    background-color: white;
+}
+
+.repite-header{
+    text-align: center;
+}
+
+.repite-title{
+    text-transform: uppercase;
+    padding-top: 100px;
+    margin-bottom: 25px;
+    color: #212121;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.card{
+    display: inline-block;
+    width: 350px;
+    margin: 31px 16px 31px;
+    padding: 20px 0;
+    margin-bottom: 96px;
+}
+
+.line{
+    width: 64px;
+    height: 2px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    background-color: #e72424;
+    border: none;
+    margin-left: 668px;
+}
+
+
+.repite-subtitle{
+    padding-bottom: 36px;
+    color: #86878B;
+    font-size: 14px;
+}
+
+
+.card-icon{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 16px;
+    border-radius: 50%;
+    border: 1px solid red;   
+}
+
+.icon--lamp{
+    background: url(../img/lamp.png) no-repeat center center;
+}
+
+.icon--keyboarb{
+    background: url(../img/keyboard.png) no-repeat center center;
+}
+
+.icon--lightning{
+    background: url(../img/lightning.png) no-repeat center center;
+}
+
+.card-title{
+    margin-bottom: 16px;
+    color: #333333;
+    font-size: 20px;
+}
+
+.card-description{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/************************секция price-card*********/
+
+.price{
+    background-color: #F5F5F5;;
+}
+
+.wrapper-price{
+    margin-left: 110px;
+    background-color: #F5F5F5;;
+}
+
+.cards-price--heading{
+    text-align: center;
+}
+
+.card-price{
+    width: 340px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 78px;
+    margin-top: 48px;
+    margin-bottom: 60px;
+}
+
+.card-price--title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    left: 257px;
+    top: 288px;
+    background-color: black;
+    border: 1px solid #F5F5F5;;
+}
+
+.card-price--subtitle{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: white;
+    background-color: black;
+    border: 1px solid #F5F5F5;;
+}
+
+.card-price--list{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+    left: 248px;
+    border: 1px solid #F5F5F5;
+    background-color: black;
+}
+
+.card-price--column p:nth-child(2n+1){
+    margin-top: 50px;
+}
+
+.price-list{
+    width: 340px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    text-decoration: none;
+    border: 1px solid #F5F5F5;
+    background-color:white;
+    list-style: none;
+}
+
+/******************секция Rewiew*************/
+
+.cards_header{
+    text-align: center;
+}
+
+.testomonial{
+    width: 298px;
+    display: inline-block;
+    margin-top: 67px;
+    margin-left: 157px;
+}
+
+.testomonial-quote{
+    font-family: Open Sans;
+    font-style: normal; 
+    font-size: 14px;
+    padding: 9px 22px 6px 23px;
+    color: #86878B;
+    background-color: #E2E2E2;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+.testomonial-avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 40px;
+    z-index: 1;
+}
+
+.testomonial-name{
+    margin-top: 30px ;
+    margin-left: 160px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+.testomonial-job{
+    padding: 12px;
+    margin-left: 180px;
+    padding-bottom: 124px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 14px;
+    color: #86878B;
+}
+
+/*************************секция disign***********/
+.products{
+    position: relative;
+    width: 100%;
+    height: 325px;
+    background-image: url(../img/background-street.png);
+}
+
+.products::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 325px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+}
+
+.products-button{
+    position: absolute;
+    z-index: 5;
+    height: 42px;
+    width: 135px;
+    margin-bottom: 110px;
+    margin-left: 632px;
+    border-radius: 0px;
+    background: transparent;
+    color: white;
+    border-color: white;
+}
+
+.repite-header{
+    position: relative;
+    z-index: 4;
+}
+
+.repite-title--light,
+.repite-subtitle--light{
+    color: white;
+}
+
+.line--light{
+    background-color: white;
+}
+
+/*******************секция contacts***********/
+
+.contacts{
+    position: relative;
+}
+
+.contacts-form{
+    position: relative;
+    margin-left: 111px;
+}
+
+.data-contacts{
+    position: absolute;
+}
+
+.input-contacts{
+    width: 478px;
+    height: 35px;
+    margin-top: 44px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.massage-area{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 700px;
+}
+
+textarea{
+    width: 478px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    color: #BDBDBD;
+}
+
+.contacts-submit {
+    /*position: absolute;*/
+    width: 166px;
+    height: 42px;
+    margin-left: 510px;
+    margin-top: 403px;
+    margin-bottom: 44px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    background: #EC7979;
+    color: #FFFFFF;
+}
+
+/*********************footer*********/
+
+footer{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.social-footer{
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
+
+.themes{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
